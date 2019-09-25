@@ -2,7 +2,7 @@
 <html lang="en">
 <head><meta name="generator" content="Hexo 3.9.0">
 <meta charset="utf-8">
-<title>[iOS] Grand Central Dispatch 基礎 - Hexo</title>
+<title>[iOS] Grand Central Dispatch - Part 1 - Hexo</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="canonical" href="http://yoursite.com/2019/09/01/grand-central-dispatch-part1/">
@@ -10,21 +10,21 @@
 <meta name="description" content="相信開發 iOS APP, 會遇到 GCD 的時機很多最常應用的時機應該是網路請求吧對一個初學者來說, GCD 是個超級大魔王啊我承認我當初還很菜的時候, 只知道更新 UI 要在 Main Thread這幾篇文章就來簡單一下 GCD 這個東西 什麼是 GCD ?最大公因數  開發者主要做的事： Create a queue, submit a task  Dispatch Queue主要用於調度及">
 <meta name="keywords" content="iOS">
 <meta property="og:type" content="website">
-<meta property="og:title" content="[iOS] Grand Central Dispatch 基礎">
+<meta property="og:title" content="[iOS] Grand Central Dispatch - Part 1">
 <meta property="og:url" content="http://yoursite.com/2019/09/01/grand-central-dispatch-part1/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="相信開發 iOS APP, 會遇到 GCD 的時機很多最常應用的時機應該是網路請求吧對一個初學者來說, GCD 是個超級大魔王啊我承認我當初還很菜的時候, 只知道更新 UI 要在 Main Thread這幾篇文章就來簡單一下 GCD 這個東西 什麼是 GCD ?最大公因數  開發者主要做的事： Create a queue, submit a task  Dispatch Queue主要用於調度及">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=160">
-<meta property="og:updated_time" content="2019-09-25T04:52:24.278Z">
+<meta property="og:updated_time" content="2019-09-25T04:54:32.081Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="[iOS] Grand Central Dispatch 基礎">
+<meta name="twitter:title" content="[iOS] Grand Central Dispatch - Part 1">
 <meta name="twitter:description" content="相信開發 iOS APP, 會遇到 GCD 的時機很多最常應用的時機應該是網路請求吧對一個初學者來說, GCD 是個超級大魔王啊我承認我當初還很菜的時候, 只知道更新 UI 要在 Main Thread這幾篇文章就來簡單一下 GCD 這個東西 什麼是 GCD ?最大公因數  開發者主要做的事： Create a queue, submit a task  Dispatch Queue主要用於調度及">
 <meta name="twitter:image" content="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=160">
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.e987407a0a9d77c7ba00.css" rel="stylesheet">
 <link rel="stylesheet" href="/theme.6814db2ccf672c87c4fb.css">
-<script src="/config.db7765c9798e4b46e1f4.js"></script>
+<script src="/config.66292b624c4add62a024.js"></script>
 </head>
 <body lang="en">
 <is-a></is-a>
