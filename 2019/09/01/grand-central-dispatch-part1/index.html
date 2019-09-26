@@ -7,24 +7,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="canonical" href="http://yoursite.com/2019/09/01/grand-central-dispatch-part1/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<meta name="description" content="主管 : 搞什麼, APP 為什麼進首頁卡住了？菜鳥 : 我剛在首頁寫了下載圖片的功能, 過不久圖片就會出現了主管 : 那你有在背景下載嗎？ GCD 不是可以把長時間的工作丟到背景執行菜鳥 : 你是說最大公因數(GCD) 嗎？ 我小時候可是數學天才主管 : ………..菜鳥 : 我把他丟到背景去下載了, 但為啥圖片下載完了顯示不出來主管 : 圖片下載完, 更新 UI 要在 Main Thread 啦">
+<meta name="description" content="主管 : 搞什麼, APP 為什麼進首頁卡住了 ？菜鳥 : 我剛在首頁寫了下載圖片的功能, 過不久圖片就會出現了主管 : 那你有在背景下載嗎 ？ GCD 不是可以把長時間的工作丟到背景執行菜鳥 : 你是說最大公因數(GCD) 嗎？ 我小時候可是數學天才呢主管 : ………………菜鳥 : 我把它丟到背景去下載了, 但為啥圖片下載完了顯示不出來主管 : 圖片下載完, 更新 UI 要在 Main Thre">
 <meta name="keywords" content="iOS">
 <meta property="og:type" content="website">
 <meta property="og:title" content="[iOS] Grand Central Dispatch - Part 1">
 <meta property="og:url" content="http://yoursite.com/2019/09/01/grand-central-dispatch-part1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="主管 : 搞什麼, APP 為什麼進首頁卡住了？菜鳥 : 我剛在首頁寫了下載圖片的功能, 過不久圖片就會出現了主管 : 那你有在背景下載嗎？ GCD 不是可以把長時間的工作丟到背景執行菜鳥 : 你是說最大公因數(GCD) 嗎？ 我小時候可是數學天才主管 : ………..菜鳥 : 我把他丟到背景去下載了, 但為啥圖片下載完了顯示不出來主管 : 圖片下載完, 更新 UI 要在 Main Thread 啦">
+<meta property="og:description" content="主管 : 搞什麼, APP 為什麼進首頁卡住了 ？菜鳥 : 我剛在首頁寫了下載圖片的功能, 過不久圖片就會出現了主管 : 那你有在背景下載嗎 ？ GCD 不是可以把長時間的工作丟到背景執行菜鳥 : 你是說最大公因數(GCD) 嗎？ 我小時候可是數學天才呢主管 : ………………菜鳥 : 我把它丟到背景去下載了, 但為啥圖片下載完了顯示不出來主管 : 圖片下載完, 更新 UI 要在 Main Thre">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://image.flaticon.com/icons/svg/236/236832.svg">
-<meta property="og:updated_time" content="2019-09-26T14:55:46.331Z">
+<meta property="og:updated_time" content="2019-09-26T18:56:30.146Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[iOS] Grand Central Dispatch - Part 1">
-<meta name="twitter:description" content="主管 : 搞什麼, APP 為什麼進首頁卡住了？菜鳥 : 我剛在首頁寫了下載圖片的功能, 過不久圖片就會出現了主管 : 那你有在背景下載嗎？ GCD 不是可以把長時間的工作丟到背景執行菜鳥 : 你是說最大公因數(GCD) 嗎？ 我小時候可是數學天才主管 : ………..菜鳥 : 我把他丟到背景去下載了, 但為啥圖片下載完了顯示不出來主管 : 圖片下載完, 更新 UI 要在 Main Thread 啦">
+<meta name="twitter:description" content="主管 : 搞什麼, APP 為什麼進首頁卡住了 ？菜鳥 : 我剛在首頁寫了下載圖片的功能, 過不久圖片就會出現了主管 : 那你有在背景下載嗎 ？ GCD 不是可以把長時間的工作丟到背景執行菜鳥 : 你是說最大公因數(GCD) 嗎？ 我小時候可是數學天才呢主管 : ………………菜鳥 : 我把它丟到背景去下載了, 但為啥圖片下載完了顯示不出來主管 : 圖片下載完, 更新 UI 要在 Main Thre">
 <meta name="twitter:image" content="https://image.flaticon.com/icons/svg/236/236832.svg">
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.e987407a0a9d77c7ba00.css" rel="stylesheet">
 <link rel="stylesheet" href="/theme.0f367d6c369f6d87ae22.css">
-<script src="/config.d4e6eff9b757c1f239f1.js"></script>
+<script src="/config.9f0d79d3972cbe565c18.js"></script>
 </head>
 <body lang="en">
 <is-a></is-a>
